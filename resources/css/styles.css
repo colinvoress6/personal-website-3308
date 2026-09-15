@@ -1,0 +1,73 @@
+/* Element selector */
+body {
+text-align:center;
+font-family: 'Georgia', serif;
+background-color: #f4f1ea;
+color: #2b2b2b;
+margin: 0;
+padding: 0;
+}
+
+/* Element selector + custom typography */
+h1 {
+font-family: 'Trebuchet MS', sans-serif;
+color: #1c3d5a;
+}
+
+/* Class selector */
+.card {
+background-color: #ffffff;
+padding: 20px;
+margin: 15px 0;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Overrides a Bootstrap default (Bootstrap's default link color is blue, #0d6efd) */
+a {
+color: #b5482a;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* margin and padding and border */
+.resume {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 50px 60px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  border-radius: 4px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 8px;
+  background-color: #1c3d5a;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #14293e;
+}
+
+p {
+  max-width: 700px;
+  margin: 12px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
