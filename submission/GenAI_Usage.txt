@@ -1,0 +1,222 @@
+AI Used: ChatGPT
+
+Prompt: generate a skeletal HTML structure for a website with 4 different pages. This website should be about a person. 
+There should be a home page, a page for 3 of the person's hobbies, a page for 3 projects that person has completed, and 
+a page for the person's resume. this should not be a complete website, but rather a barebones structure.
+
+
+Initial Response:
+Absolutely. Here’s a barebones 4-page HTML structure using a fictional person, Alex Johnson, as the example. There’s intentionally very little styling or content—just the structure you could build on later.
+File structure
+personal-website/
+│
+├── index.html
+├── hobbies.html
+├── projects.html
+└── resume.html
+index.html — Home Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Home</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Johnson</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Welcome to Alex Johnson's personal website.</p>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>A brief introduction about Alex goes here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Johnson</p>
+    </footer>
+
+</body>
+</html>
+hobbies.html — Hobbies Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Hobbies</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Johnson</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>My Hobbies</h2>
+
+        <section>
+            <h3>Hobby 1</h3>
+            <p>Description of the first hobby.</p>
+        </section>
+
+        <section>
+            <h3>Hobby 2</h3>
+            <p>Description of the second hobby.</p>
+        </section>
+
+        <section>
+            <h3>Hobby 3</h3>
+            <p>Description of the third hobby.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Johnson</p>
+    </footer>
+
+</body>
+</html>
+projects.html — Projects Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Projects</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Johnson</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>My Projects</h2>
+
+        <section>
+            <h3>Project 1</h3>
+            <p>Description of the first completed project.</p>
+        </section>
+
+        <section>
+            <h3>Project 2</h3>
+            <p>Description of the second completed project.</p>
+        </section>
+
+        <section>
+            <h3>Project 3</h3>
+            <p>Description of the third completed project.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Johnson</p>
+    </footer>
+
+</body>
+</html>
+resume.html — Resume Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Resume</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Johnson</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Resume</h2>
+
+        <section>
+            <h3>Education</h3>
+            <p>Education information goes here.</p>
+        </section>
+
+        <section>
+            <h3>Work Experience</h3>
+            <p>Work experience information goes here.</p>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <p>Skills information goes here.</p>
+        </section>
+
+        <section>
+            <h3>Achievements</h3>
+            <p>Achievements information goes here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Johnson</p>
+    </footer>
+
+</body>
+</html>
+This gives you the basic HTML skeleton and navigation between all four pages, without adding CSS, JavaScript, images, animations, or detailed content.
+
+
+
+
+
+Evaluation:
+
+I thought that Chat did a good job of doing what I had asked. for the most part it looked like it made a valid html strucutre to a website like I had asked.
+ChatGPT lets you run is code through its own site, so you can preview the html it made and it looked like a good skeleton with no CSS or bootstrap or anything.
+
+
+Revision:
+
+I had Chat try to make accordian for project descriptions. It would let me preview this time but here is the response it gave
+
+
+<main> <h2>My Projects</h2> <section> <details> <summary>Project 1</summary> <p>Description of the first completed project.</p> </details> </section> <section> <details> <summary>Project 2</summary> <p>Description of the second completed project.</p> </details> </section> <section> <details> <summary>Project 3</summary> <p>Description of the third completed project.</p> </details> </section> </main>
+
+idk why that all pasted on one line 
